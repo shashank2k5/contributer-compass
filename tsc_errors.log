@@ -1,0 +1,8 @@
+﻿src/app/api/analyze/route.ts(4,10): error TS2305: Module '"@prisma/client"' has no exported member 'PrismaClient'.
+src/app/api/auth/[...nextauth]/route.ts(4,10): error TS2305: Module '"@prisma/client"' has no exported member 'PrismaClient'.
+src/app/api/auth/[...nextauth]/route.ts(23,21): error TS7031: Binding element 'token' implicitly has an 'any' type.
+src/app/api/auth/[...nextauth]/route.ts(23,28): error TS7031: Binding element 'account' implicitly has an 'any' type.
+src/app/api/auth/[...nextauth]/route.ts(23,37): error TS7031: Binding element 'user' implicitly has an 'any' type.
+src/app/api/auth/[...nextauth]/route.ts(31,25): error TS7031: Binding element 'session' implicitly has an 'any' type.
+src/app/api/auth/[...nextauth]/route.ts(31,34): error TS7031: Binding element 'token' implicitly has an 'any' type.
+src/app/api/auth/[...nextauth]/route.ts(31,41): error TS7031: Binding element 'user' implicitly has an 'any' type.
